@@ -83,6 +83,40 @@ Environmental teams can identify **priority lakes for intervention and cleanup o
 
 ---
 
+# Tech Stack
+
+The project integrates web technologies, AI models, and geospatial visualization tools to build a scalable monitoring system.
+
+### Frontend
+- **React.js**
+- **Vite**
+- **HTML / CSS / JavaScript**
+
+### Mapping & Visualization
+- **Leaflet.js**
+- **React Leaflet**
+- **OpenStreetMap**
+
+### Backend
+- **Python**
+- **Flask APIs**
+
+### Database
+- **Firebase Firestore**
+
+### Authentication
+- **Firebase Authentication**
+
+### AI / Machine Learning
+- **YOLOv8 Segmentation Model**
+- Image analysis for water hyacinth detection
+
+### Deployment / Development Tools
+- **GitHub**
+- **Node.js**
+
+---
+
 # Environmental Impact
 
 BlueScan contributes to environmental sustainability by:
