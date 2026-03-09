@@ -1,12 +1,12 @@
 import emailjs from "@emailjs/browser"
 
 // 🔴 EmailJS config (replace with YOUR values)
-const SERVICE_ID = "service_reef"
-const TEMPLATE_ID = "template_paf016l"
-const PUBLIC_KEY = "VXcM70cnhpF-xQWZ1"
+const SERVICE_ID = "nagpur_lakes"
+const TEMPLATE_ID = "templae_mdi908s"
+const PUBLIC_KEY = "XZUJGbzRTOOf4WiB"
 
 // Alert recipients (comma separated)
-const ALERT_EMAILS = "ashishkamble0422@gmail.com,aryannandanwar738@gmail.com"
+const ALERT_EMAILS = "ashishkamble0422@gmail.com,ghoshesha06@gmail.com"
 
 export async function sendCriticalLakeEmail(lakeName, avgPlant) {
   try {
