@@ -1,0 +1,72 @@
+{
+  "Ash Pond": {
+    "id": "ash_pond",
+    "lat": 21.226,
+    "lng": 79.1112
+  },
+  "Ambazari Lake": {
+    "id": "ambazari",
+    "lat": 21.127955,
+    "lng": 79.037933
+  },
+  "Futala (Telangkhedi) Lake": {
+    "id": "futala",
+    "lat": 21.154487,
+    "lng": 79.04235
+  },
+  "Gandhisagar (Shukrawari/Jumma) Lake": {
+    "id": "gandhisagar",
+    "lat": 21.146263,
+    "lng": 79.098181
+  },
+  "Zilpi Lake": {
+    "id": "zilpi",
+    "lat": 21.063977,
+    "lng": 78.868065
+  },
+  "Koradi Lake": {
+    "id": "koradi",
+    "lat": 21.257629,
+    "lng": 79.092978
+  },
+  "Gorewada Lake": {
+    "id": "gorewada",
+    "lat": 21.198155,
+    "lng": 79.037667
+  },
+  "Lendi Lake": {
+    "id": "lendi",
+    "lat": 21.16034,
+    "lng": 79.110462
+  },
+  "Naik Talav": {
+    "id": "naik_talav",
+    "lat": 21.162141,
+    "lng": 79.112127
+  },
+  "Sonegaon Lake": {
+    "id": "sonegaon",
+    "lat": 21.100051,
+    "lng": 79.052062
+  },
+  "Sakkardara Lake": {
+    "id": "sakkardara",
+    "lat": 21.1793,
+    "lng": 79.0550
+  },
+  "Pandhrabodi Lake": {
+    "id": "pandhrabodi",
+    "lat": 21.14291,
+    "lng": 79.051035
+  },
+  "Mangalwari Lake": {
+    "id": "mangalwari",
+    "lat": 21.168983,
+    "lng": 79.121846
+  },
+  "demo lake": {
+    "id": "demo",
+    "lat": 21.1763,
+    "lng": 79.0609
+  }
+}
