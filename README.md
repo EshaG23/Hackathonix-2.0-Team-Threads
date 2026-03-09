@@ -1,83 +1,136 @@
-# Hackathonix-2.0-Team-Threads
-# Water Body Health: Community-Driven Eichhornia Tracking
+# BlueScan  
+### Community-Driven Eichhornia Tracking for Water Body Health
 
-## Hackathon Theme
+An AI-powered platform that enables citizens to monitor water bodies and detect **Water Hyacinth (Eichhornia)** infestations using crowdsourced images and intelligent analysis.
+
+---
+
+# Hackathon Project
+
+This project was developed during **Hackathonix 2.0** under the theme:
+
 **Open Innovation 1 – Environment & Sustainability**
 
-This project was developed as part of a hackathon under the **Open Innovation category focusing on Environment & Sustainability**, aiming to create technology-driven solutions for environmental sustainability.
+The goal of this track was to build **technology-driven solutions that address real environmental challenges** and promote sustainable ecosystems.
+
+Our team focused on tackling the growing issue of **water body degradation caused by invasive aquatic plants**.
 
 ---
 
 # Problem Statement
 
-**Water Body Health: Community-Driven Eichhornia Tracking**
+## Water Body Health: Community-Driven Eichhornia Tracking
 
-Water Hyacinth (*Eichhornia*) spreads rapidly across lakes and water bodies, clogging waterways and harming aquatic ecosystems. It blocks sunlight from reaching underwater plants and reduces oxygen levels in the water, often resulting in fish deaths and ecological imbalance.
+Water Hyacinth (*Eichhornia*) is one of the **world's most invasive aquatic plants**. It spreads rapidly across lakes and water bodies, forming dense mats on the water surface.
 
-Local authorities frequently become aware of the extent of infestation only after a large portion of the water body is covered. Manual reporting from citizens is often imprecise and lacks accurate geographic information, making monitoring and cleanup efforts inefficient.
+This causes several ecological problems:
 
-The challenge is to create a **crowdsourced image analysis platform** where citizens can upload photos of water bodies. The system should use **AI-based visual analysis** to estimate the percentage of water hyacinth coverage and automatically highlight affected areas for faster cleanup response.
+- Blocks sunlight from reaching underwater plants  
+- Reduces oxygen levels in water  
+- Harms fish and aquatic biodiversity  
+- Disrupts the natural balance of lake ecosystems  
+- Makes water bodies difficult to use and restore  
+
+In many cases, **authorities become aware of the infestation only after large portions of the lake are already affected**.
+
+Citizen reports often lack **accurate geographic information and quantitative analysis**, making it difficult for authorities to assess the severity of the problem and respond quickly.
+
+### The Challenge
+
+Build a **crowdsourced environmental monitoring platform** where:
+
+- Citizens can upload images of water bodies  
+- AI analyzes the images to detect water hyacinth  
+- The system estimates infestation levels  
+- Authorities can quickly identify affected regions and plan cleanup actions  
 
 ---
 
 # Our Solution
 
-We developed a **Community-Driven Water Body Monitoring System** that combines citizen participation and AI-based image analysis to track the spread of Eichhornia in lakes and water bodies.
+We developed **BlueScan**, a **community-driven water body monitoring platform** that combines:
 
-The system allows citizens to capture images of nearby water bodies and upload them through a simple interface. These images are analyzed using a lightweight AI model to estimate the level of water hyacinth coverage.
+- Citizen participation  
+- AI-based image analysis  
+- Geospatial lake monitoring  
 
-Based on this analysis, the system generates a **Water Body Health Score** and marks infestation hotspots on a monitoring dashboard. This enables local authorities and environmental teams to quickly identify affected regions and plan targeted cleanup operations.
+Citizens can capture images of nearby lakes and upload them through the platform.
 
+These images are analyzed using a **lightweight AI segmentation model** that estimates the percentage of water surface covered by **Eichhornia**.
+
+Based on this analysis, the system generates a **Water Body Health Score** and highlights infestation hotspots on an **interactive monitoring dashboard**.
+
+This enables environmental teams and authorities to **detect problems early and respond faster**.
 
 ---
 
-# Impact
+# Key Features
 
-This project supports environmental sustainability by:
+## Geo-Verified Citizen Reporting
+Users can submit reports from nearby lakes with **location verification**, ensuring that reports correspond to the correct water body.
+
+## AI-Based Hyacinth Detection
+An AI model analyzes uploaded images and estimates the **percentage of water surface covered by water hyacinth**.
+
+## Interactive Lake Monitoring Map
+All monitored lakes are visualized on a **map dashboard**, allowing quick identification of infestation hotspots.
+
+## Water Body Health Score
+The system converts image analysis results into a **lake health indicator**, helping authorities track ecosystem conditions.
+
+## Decision Support for Authorities
+Environmental teams can identify **priority lakes for intervention and cleanup operations**.
+
+---
+
+# Environmental Impact
+
+BlueScan contributes to environmental sustainability by:
 
 - Enabling **early detection of invasive aquatic plants**
-- Encouraging **community participation in environmental monitoring**
-- Improving efficiency of **lake cleanup operations**
+- Encouraging **community participation in ecosystem monitoring**
+- Supporting **data-driven lake restoration efforts**
 - Protecting **freshwater ecosystems and aquatic biodiversity**
 
----
-
-# Sustainable Development Goals Addressed
-
-This project contributes to multiple **United Nations Sustainable Development Goals (SDGs)** by improving monitoring and protection of freshwater ecosystems.
-
-### 1. SDG 6 – Clean Water and Sanitation
-Water hyacinth spreads rapidly and degrades freshwater ecosystems by blocking sunlight and reducing oxygen levels in lakes and rivers.  
-Our system enables **early detection and monitoring of invasive plants**, helping authorities maintain healthy water bodies.
-
-### 2. SDG 11 – Sustainable Cities and Communities
-Urban lakes and water bodies are essential for sustainable cities.  
-By monitoring lake health and identifying infestation hotspots, the system supports **better management of urban water resources**.
-
-### 3. SDG 13 – Climate Action
-Healthy lakes and wetlands contribute to climate resilience and environmental stability.  
-Our monitoring platform helps protect these ecosystems and supports **data-driven environmental management**.
-
-### 4. SDG 14 – Life Below Water
-Water hyacinth reduces oxygen levels in water and threatens fish and aquatic organisms.  
-By detecting infestations early, the project helps **protect aquatic biodiversity and ecosystems**.
-
-### 5. SDG 15 – Life on Land
-Water hyacinth is an **invasive alien species** that disrupts natural ecosystems.  
-The system helps track and control its spread, contributing to the protection of biodiversity.
-
+The platform transforms **citizen observations into actionable environmental intelligence**.
 
 ---
 
-# Team Members
+# Sustainable Development Goals Supported
 
-- **Samrudhi**
-- **Esha**
-- **Ashish**
-- **Prakash**
+This project contributes to several **United Nations Sustainable Development Goals (SDGs)**.
+
+## SDG 6 – Clean Water and Sanitation
+Early detection of water hyacinth helps maintain **healthy freshwater ecosystems** and improves water body management.
+
+## SDG 11 – Sustainable Cities and Communities
+Urban lakes play a critical role in city ecosystems. Monitoring lake health supports **sustainable urban environmental management**.
+
+## SDG 13 – Climate Action
+Healthy wetlands and lakes contribute to **climate resilience and ecological balance**.
+
+## SDG 14 – Life Below Water
+Reducing water hyacinth infestation helps protect **aquatic organisms and biodiversity**.
+
+## SDG 15 – Life on Land
+Water hyacinth is an **invasive alien species**. Monitoring its spread helps protect natural ecosystems and biodiversity.
+
+---
+
+# Team Threads  
+Ramdeobaba University, Nagpur
+
+- Samrudhi  
+- Esha  
+- Ashish  
+- Prakash  
 
 ---
 
 # Conclusion
 
-By combining **AI-powered image analysis with community participation**, this project creates a scalable and efficient system to monitor water bodies and control the spread of invasive species like Eichhornia. The platform supports sustainable ecosystem management and contributes to achieving global Sustainable Development Goals.
+BlueScan demonstrates how **AI, community participation, and geospatial monitoring** can be combined to address real environmental challenges.
+
+By transforming simple citizen-uploaded images into **environmental insights**, the platform enables faster detection of ecological threats and supports **sustainable management of water bodies**.
+
+The solution has the potential to scale across **multiple cities and regions**, creating a powerful tool for protecting freshwater ecosystems.
