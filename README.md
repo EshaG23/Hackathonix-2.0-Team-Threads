@@ -2,9 +2,9 @@
 # Water Body Health: Community-Driven Eichhornia Tracking
 
 ## Hackathon Theme
-**Open Innovation 1 – Sustainable Development Goals (SDGs)**
+**Open Innovation 1 – Environment & Sustainability**
 
-This project was developed as part of a hackathon under the **Open Innovation category focusing on Sustainable Development Goals**, aiming to create technology-driven solutions for environmental sustainability.
+This project was developed as part of a hackathon under the **Open Innovation category focusing on Environment & Sustainability**, aiming to create technology-driven solutions for environmental sustainability.
 
 ---
 
