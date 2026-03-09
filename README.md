@@ -120,10 +120,10 @@ Water hyacinth is an **invasive alien species**. Monitoring its spread helps pro
 # Team Threads  
 Ramdeobaba University, Nagpur
 
-- Samrudhi  
-- Esha  
-- Ashish  
-- Prakash  
+- Samrudhi  Madankar
+- Esha  Ghosh
+- Ashish  Kamble
+- Prakash  Gond
 
 ---
 
