@@ -15,28 +15,41 @@ function App() {
 
   useEffect(() => {
     const unsub = onSnapshot(collection(db, "reports"), (snapshot) => {
-      const aggregation = {}
+      const reportsByLake = {}
 
       snapshot.forEach((doc) => {
         const data = doc.data()
         const lakeId = data.lake_id
-        const plant = data.plant_percentage
+        if (data.plant_percentage == null) return
 
-        if (plant == null) return
-
-        if (!aggregation[lakeId]) {
-          aggregation[lakeId] = { sum: 0, count: 0 }
+        if (!reportsByLake[lakeId]) {
+          reportsByLake[lakeId] = []
         }
-
-        aggregation[lakeId].sum += plant
-        aggregation[lakeId].count += 1
+        reportsByLake[lakeId].push({
+          plant: data.plant_percentage,
+          time: data.timestamp || data.createdAt || 0
+        })
       })
 
       const avgMap = {}
-      Object.keys(aggregation).forEach((lakeId) => {
+      Object.keys(reportsByLake).forEach((lakeId) => {
+        // Sort reports by time to ensure weighted average (EMA) is correct
+        const sortedReports = reportsByLake[lakeId].sort((a, b) => a.time - b.time)
+        
+        // Calculate Weighted Average (EMA)
+        // Formula: CurrentEMA = (Value * 0.8) + (PrevEMA * 0.2)
+        let currentEma = 0
+        sortedReports.forEach((report, index) => {
+          if (index === 0) {
+            currentEma = report.plant
+          } else {
+            currentEma = (report.plant * 0.2) + (currentEma * 0.8)
+          }
+        })
+
         avgMap[lakeId] = {
-          avg: aggregation[lakeId].sum / aggregation[lakeId].count,
-          count: aggregation[lakeId].count
+          avg: currentEma,
+          count: sortedReports.length
         }
       })
 
